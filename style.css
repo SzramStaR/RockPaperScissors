@@ -1,0 +1,30 @@
+*{
+    border: 2px solid red;
+}
+body{
+    background:black;
+    color: white;
+    margin: 0;
+    font-family: 'Sedgwick Ave Display', cursive;
+    font-size:x-large;
+    text-align: center;
+
+    
+}
+#headline,
+#score_container,
+#score_head,
+#score_text{
+    display: flex;
+    justify-content:center;
+}
+
+#user_score,
+#opp_score{
+    margin: 10px;
+}
+
+#icons_container{
+    width: 200;
+    display: inline-block;
+}
